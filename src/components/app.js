@@ -1,12 +1,13 @@
 import React from 'react';
-import Counter from './counter/counter';
+//import Counter from './counter/counter';
+import BirthdayReminder from './birthdayReminder/birthdayReminder';
+import '../style/index.css';
 
 const App = () => {
     return (
-        <div>
-            <Counter counterLimit={2} />
-            <Counter counterLimit={5} />
-        </div>
+        <main>
+            <BirthdayReminder />
+        </main>
     );
 }
 
